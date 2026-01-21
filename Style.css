@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Inter;
+  font-size: 16;
+}
+.flex {
+  display: flex;
+}
+.margin {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+body {
+  background-color: #1a0b2e;
+}
+/* Nav-Bar Started */
+.Nav-Bar {
+  padding: 15px 200px;
+  background-color: #1a0b2e;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Nav-List {
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+.Nav-List li a {
+  text-decoration: none;
+}
+.Title {
+  font-size: 26px;
+}
+.Wave {
+  background: #f7e93f;
+  background: linear-gradient(
+    9deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.Subscribe-Button {
+  justify-content: center;
+  align-items: center;
+  background: #f7e93f;
+  background: linear-gradient(
+    9deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 51%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  border-radius: 25px;
+  border: none;
+  padding: 12px 16px;
+  font-weight: 600;
+}
+.Menu-Button {
+  display: none;
+}
+/* Nav-Bar Responsive Started */
+@media screen and (max-width: 576px){
+  .Nav-Bar {
+    padding: 12px 20px;
+    background-color: #1a0b2e;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Nav-List {
+    display: none;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+  }
+  .Title {
+    font-size: 18px;
+  }
+
+  .Subscribe-Button {
+    display: none;
+  }
+  .Menu-Button{
+    display: block;
+  }
+}
+/* Nav-Bar Ended */
