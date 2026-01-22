@@ -17,6 +17,9 @@
 body {
   background-color: #1a0b2e;
 }
+html{
+  scroll-behavior: smooth;
+}
 header{
   position: relative;
 }
@@ -369,6 +372,7 @@ figure{
 /* Meet Done */
 /* Footer Started */
 .Footer{
+  margin-top: 110px;
   background: url(Resources/footer-bg.png);
   background-position: center;
   flex-direction: column;
@@ -396,28 +400,52 @@ list-style: none;gap: 40px;
 /* Footer Done */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:576px){
   .margin {
   margin: 0 20px;
   padding: 0px 0;
 }
+.Video-Container{
+  grid-template-columns: 1fr;
+}
+.Video-Card figure{
+  width:100%;
+}
+.Speech-Card{
+  flex-direction: column;
+  align-items: center;
+}
+.Speech{
+  align-items: center;
+}
+.Speech p{
+  text-align: center;
+  line-height: 30px;
+}
+.Footer{
+    min-height: 210px;
+    background-position:center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    gap: 0px;
+    margin-top: 30px;
+    
+
+}
+.Footer-link-list{
+  margin: 15px 0;
+  flex-wrap: wrap;
+  align-items:center ;
+  justify-content: center;
+  max-width: 280px;
+  gap: 12px;
+}
+.Footer p{
+  font-size: 14px;
+  
+}
+
 /* Nav-Bar started */
   .Nav-Bar {
     padding: 12px 20px;
@@ -537,5 +565,47 @@ hr{
   ;
 }
 /* Why Section Done */
-
+/* Featured Started */
+.Video-Container{
+  grid-template-columns: 1fr;
+}
+.Video-Card figure{
+  width:100%;
+}
+/* Featured Done */
+/* Meet Started */
+.Speech-Card{
+  flex-direction: column;
+  align-items: center;
+}
+.Speech{
+  align-items: center;
+}
+.Speech p{
+  text-align: center;
+  line-height: 30px;
+}
+/* Meet Done*/
+/* Footer Started */
+.Footer{
+    min-height: 210px;
+    background-position:center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    gap: 0px;
+    margin-top: 30px;
+}
+.Footer-link-list{
+  margin: 15px 0;
+  flex-wrap: wrap;
+  align-items:center ;
+  justify-content: center;
+  max-width: 280px;
+  gap: 12px;
+}
+.Footer p{
+  font-size: 14px;
+}
+/* Footer Done */
 }
