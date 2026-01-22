@@ -9,10 +9,7 @@
 .flex {
   display: flex;
 }
-.margin {
-  margin: 0 auto;
-  padding: 20px 0;
-}
+
 
 body {
   background-color: #1a0b2e;
@@ -83,7 +80,7 @@ header{
     text-align: center;
     background-repeat: no-repeat;
     gap: 20px;
-    position: absolute;
+    /* position: relative; */
 }
 .Circle-Container{
     flex-direction: column;
@@ -152,8 +149,67 @@ header{
     gap: 5px;
 }
 
+
+/* About Section started */
+
+.Text-Container h1{
+  font-size: 3rem;
+}
+.Text-Container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 200px ;
+  gap: 20px;
+}
+.P1{
+  max-width: 700px;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.P2{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+hr{
+
+  border: none;
+  background-color: white;
+  margin: 50px 200px ;
+  height: 1px;  
+  align-self: stretch;
+  
+}
+.Number-Holder{
+     justify-content: space-between;
+      padding: 50px 200px ; 
+     
+}
+.Card{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Count{
+    font-size: 3rem ;
+    font-weight: 900;
+    color: #00FF88;
+}
+.Count-Title{
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+/* About Section Done */
+
 @media screen and (max-width:576px){
-  /* Nav-Bar started */
+  .margin {
+  margin: 0 20px;
+  padding: 0px 0;
+}
+/* Nav-Bar started */
   .Nav-Bar {
     padding: 12px 20px;
     background-color: #1a0b2e;
@@ -217,5 +273,45 @@ header{
   max-width: 400px;
   text-align: center;
 }
-/* Hero Section End */
+/* Hero Section Done */
+/* About Section started */
+.Button-Holder{
+  margin-top: 20px;
+}
+.About{
+  padding: 120px 0;
+}
+.Text-Container{
+  padding: 20px 0;
+}
+.Text-Container h1{
+  font-size: 2rem;
+}
+
+.Number-Holder{
+ display: grid;
+ grid-template-columns:repeat(2,2fr);
+ padding: 20px 0;
+ gap: 20px;
+}
+.Count{
+  font-size: 2.3rem;
+}
+.Count-Title{
+  letter-spacing: 0;
+  font-size: 14px;
+}
+.P1{
+  text-align: center;
+  line-height: 28px ;
+  letter-spacing: 0;
+}
+.P2{
+  letter-spacing: 0;
+  line-height: 28px ;
+}
+hr{
+  margin: 20px 20px;
+}
+/* About Section Done */
 }
