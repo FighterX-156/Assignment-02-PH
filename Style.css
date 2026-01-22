@@ -264,6 +264,155 @@ hr{
   font-weight: 200;
 }
 
+/* Why Section Done*/
+/* Featured Started */
+.Featured{
+  padding: 110px 0;
+}
+.Featured h1{
+  font-size: 3rem;
+  text-align: center;
+  margin: 50px 0;
+}
+figure{
+  position: relative;
+}
+.play-button{
+  width: 80px;
+  position: absolute;
+  inset: 0;
+  justify-self: center;
+  align-self: center;
+}
+.Video-Container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.Video-Card{
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #250D44;
+  border-radius: 25px;
+  overflow: hidden;
+  gap: 20px;
+}
+.Video-Card figure{
+  height: 214px;
+  width: 380px;
+}
+.Video-Card figure iframe{
+ width: 100%;
+ height: 100%;  
+}
+.Meet h1{
+  font-size: 3rem;
+}
+.Video-Title{
+  font-size: 1.5rem;
+  padding: 0 24px;
+}
+
+.Video-description{
+  padding: 0 24px;
+  font-weight:200;
+}
+.Duration{
+  padding: 0 24px;
+  margin-bottom:25px;
+  align-items: 0;
+  gap: 10px;
+  color: #00FF88;
+}
+/* Featured Done */
+/* Speech-Card Started */
+.Speech-Card{
+  align-items: center;
+  gap: 25px;
+  background-color: #250D44;
+  padding: 40px;
+  border-radius: 25px;
+}
+.Meet{
+  padding-bottom:  110px ;
+}
+.Meet h1{
+   font-size: 3rem;
+   text-align: center;
+   margin: 30px 0;
+}
+.Speech{
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 20px;
+}
+.Speech h2{
+   font-size: 2rem;
+   margin-top: 20px;
+}
+.Speech p{
+  font-weight: 200;
+}
+.Social-Buttons{
+  gap: 20px;
+}
+.S-Button img{
+  width: 20px;
+}
+.S-Button{
+  border-radius: 50%;
+  border: 1px solid #533C72;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+/* Meet Done */
+/* Footer Started */
+.Footer{
+  background: url(Resources/footer-bg.png);
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 460px;
+  gap: 30px;
+}
+.Footer-link-list{
+list-style: none;gap: 40px;
+}
+
+.Footer-link-list li a {
+  text-decoration: none;
+   font-weight: 200;
+}
+.F-link{
+   align-items: center;
+   gap: 10px;
+   
+}
+.Footer p{
+   font-weight: 200;
+}
+/* Footer Done */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
   .margin {
   margin: 0 20px;
